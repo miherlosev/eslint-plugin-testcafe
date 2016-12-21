@@ -19,3 +19,10 @@ $ npm install eslint-plugin-testcafe --save-dev
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-testcafe` globally.
 
 ## Usage
+
+Add testcafe to the plugins section of your .eslintrc configuration file. You can omit the eslint-plugin- prefix:
+{
+    "plugins": [
+        "testcafe"
+    ]
+}
