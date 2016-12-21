@@ -1,0 +1,22 @@
+{
+    "name": "eslint-plugin-testcafe",
+    "version": "0.1.0",
+    "description": "Eslint rules for testcafe",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/miherlosev/eslint-plugin-testcafe"
+    },
+    "author": "Mikhail Losev <miherlosev@mail.ru>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/miherlosev/eslint-plugin-testcafe/issues"
+    },
+    "homepage": "https://github.com/miherlosev/eslint-plugin-testcafe",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin",
+        "testcafe"
+    ]
+}
