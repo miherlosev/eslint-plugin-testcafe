@@ -18,11 +18,17 @@ $ npm install eslint-plugin-testcafe --save-dev
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-testcafe` globally.
 
-## Usage
+## Recommended configuration
 
-Add testcafe to the plugins section of your .eslintrc configuration file. You can omit the eslint-plugin- prefix:
+This plugin export a recommended configuration that enforce good practices.
+
+To enable this configuration use the extends property in your .eslintrc config file:
+
 {
-    "plugins": [
-        "testcafe"
-    ]
+  "plugins": [
+    "testcafe"
+  ],
+  "extends": "plugin:testcafe/recommended"
 }
+
+See [ESLint documentation](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information about extending configuration files.

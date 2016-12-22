@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-    environments: {
-        testcafe: {
+    configs: {
+        recommended: {
             globals: {
                 fixture: false,
                 test: false
